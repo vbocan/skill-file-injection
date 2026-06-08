@@ -1,0 +1,16 @@
+# Run outputs (the published results live in results/, not logs/)
+logs/
+harness/models_config_*.json
+harness/_smoke*
+harness/_rc*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
